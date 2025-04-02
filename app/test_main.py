@@ -13,6 +13,7 @@ from app.main import check_password
         ("Password@!", False),
         ("NoSpecial123", False),
         ("password123!", False),
+        ("A1!short", False),
         ("A1!thisIsALongPassword123!", False),
         ("Invalid!#*", False),
     ]
